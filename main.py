@@ -29,6 +29,6 @@ while repeat < 6:
 	if checkmate:
 		print("your opponent checkmated you...")
 		break
-	elif draw:
+	if draw:
 		print("Everyone won it is a stalemate...")
 		break
