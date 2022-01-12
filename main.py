@@ -6,8 +6,7 @@ board = chess.Board()
 #shows chess board
 print(board)
 
-repeat = 1
-while repeat < 6:
+while True:
 	board.legal_moves
 	#White move
 	Whitemove = input("Enter your move in notation form: ")
